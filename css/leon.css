@@ -61,7 +61,6 @@ body {
     left: 50%;
     transform: translateX(-50%);
     bottom: 15px;
-    font-weight: 600;
     font-size: 25px;
     color: var(--fourth-color);
 }
