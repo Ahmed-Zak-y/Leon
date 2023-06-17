@@ -322,6 +322,9 @@ header ul li a:hover {
 .about .about-image img {
     width: 100%;
 }
+.about .text {
+    flex-basis: 600px;
+}
 
 @media (max-width: 1199px) {
     .about .about-content {
@@ -330,6 +333,9 @@ header ul li a:hover {
     .about .about-image {
         margin: 0 auto 50px;
         width: 250px;
+    }
+    .about .text {
+        flex-basis: 0;
     }
 }
 @media (max-width: 767px) {
@@ -348,9 +354,6 @@ header ul li a:hover {
         top: -15px;
         right: -45px;
     }
-}
-.about .text {
-    flex-basis: 600px;
 }
 .about .text p:first-child {
     font-size: 20px;
