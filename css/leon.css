@@ -5,7 +5,7 @@
     --fourth-color: #575757;
     --fifth-color: #1f2021;
     --main-padding: 60px;
-    --background-clr: #fafafa;
+    --background-clr: #e1eced;
 }
 html {
     scroll-behavior: smooth;
@@ -60,7 +60,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 30px;
+    bottom: 15px;
     font-size: 25px;
     color: var(--fourth-color);
 }
