@@ -168,18 +168,24 @@ header ul li a:hover {
     text-align: center;
 }
 .landing .heading-box {
-    max-width: 372px;
+    max-width: 450px;
     padding: 20px;
 }
 .landing h1 {
     color: var(--main-color);
+    text-shadow: 1px 1px 1px black;
     font-weight: 800;
     font-size: 55px;
 }
-.landing p:only-child {
+.landing p {
     font-size: 20px;
     color: var(--secondary-color);
-    font-weight: bold;
+    font-weight: 600;
+}
+@media (max-width: 1199px) {
+    .landing p {
+        color: black;
+    }
 }
 .features {
     padding-top: var(--main-padding);
