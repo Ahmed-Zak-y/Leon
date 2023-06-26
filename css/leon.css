@@ -187,6 +187,12 @@ header ul li a:hover {
         color: black;
     }
 }
+@media (max-width: 767px) {
+  .landing h1 {
+    font-size: 40px;
+    color: #617ac3;
+  }
+}
 .features {
     padding-top: var(--main-padding);
     padding-bottom: calc(var(--main-padding) / 2);
