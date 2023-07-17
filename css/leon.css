@@ -92,6 +92,7 @@ header .container {
 }
 header .logo img {
     width: 70px;
+    height: 28px;
 }
 header nav {
     position: relative;
@@ -206,7 +207,7 @@ header ul li a:hover {
     font-size: 60px;
     padding: 20px;
 }
-.features .feature h3 {
+.features .feature h2 {
     font-size: 18px;
     font-weight: 800;
     color: var(--secondary-color);
@@ -287,14 +288,19 @@ header ul li a:hover {
 .portfolio .box:hover {
     box-shadow: 0 0 10px var(--main-color);
 }
+.portfolio .image {
+    max-height: 399px;
+    max-width: 600px;
+}
 .portfolio img {
     width: 100%;
+    height: 100%;
 }
 .portfolio .text {
     background-color: white;
     padding: 15px 20px;
 }
-.portfolio .text h4 {
+.portfolio .text h2 {
     color: var(--fifth-color);
     font-size: 18px;
     font-weight: 800;
@@ -315,6 +321,7 @@ header ul li a:hover {
 }
 .about .about-image {
     flex-basis: 250px;
+    max-height: 375px;
     margin-left: 10px;
     position: relative;
 }
@@ -341,6 +348,9 @@ header ul li a:hover {
 }
 .about .about-image img {
     width: 100%;
+    height: 100%;
+    min-width: 200px;
+    min-height: 300px;
 }
 .about .text {
     flex-basis: 600px;
@@ -410,7 +420,7 @@ header ul li a:hover {
 }
 .contact .text a {
     margin: 20px;
-    color: var(--main-color);
+    color: #008f80;
     font-weight: 800;
     font-size: 50px;
     text-decoration: none;
